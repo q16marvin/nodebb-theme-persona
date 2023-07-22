@@ -6,6 +6,7 @@
 <div class="row">
 	<div class="topic {{{ if widgets.sidebar.length }}}col-lg-9 col-sm-12{{{ else }}}col-lg-12{{{ end }}}">
 		<div class="topic-header sticky-top">
+			<!-- IMPORT partials/breadcrumbs.tpl -->
 			<h1 component="post/header" class="" itemprop="name">
 				<span class="topic-title">
 					<span component="topic/labels" class="d-inline-flex gap-2 align-items-center">
